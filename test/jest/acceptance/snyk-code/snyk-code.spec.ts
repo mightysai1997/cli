@@ -329,9 +329,6 @@ describe('snyk code test', () => {
       env: {
         // internal GAF feature flag for consistent ignores
         INTERNAL_SNYK_CODE_IGNORES_ENABLED: 'true',
-        // TODO: stop using dev env once consistent ignores is GA
-        SNYK_API: process.env.TEST_SNYK_API_DEV,
-        SNYK_TOKEN: process.env.TEST_SNYK_TOKEN_DEV,
       },
     },
   ];
